@@ -55,8 +55,10 @@ def get_engine():
     cfg = st.session_state["db_cfg"]
     url = (
         f"mysql+pymysql://{cfg['user']}:{cfg['password']}"
-        f"@{cfg['host']}:{cfg['port']}/{cfg['dbname']}?charset=utf8mb4"
+            f"@{cfg['host']}:{cfg['port']}/{cfg['dbname']}"
+    f"?charset=utf8mb4&ssl_verify_cert=true"
     )
+
     return create_engine(url)
 
 @st.cache_data(show_spinner=False)
