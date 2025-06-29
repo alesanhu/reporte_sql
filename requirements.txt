@@ -3,3 +3,5 @@ pandas
 altair
 sqlalchemy==2.0.0b1.dev20240226
 pymysql
+typing_extensions>=4.8
+xlsxwriter
