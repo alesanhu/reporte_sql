@@ -1,5 +1,5 @@
 streamlit
 pandas
 altair
-sqlalchemy==2.0.
+sqlalchemy==2.0.0b1.dev20240226
 pymysql
