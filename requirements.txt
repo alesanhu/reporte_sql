@@ -1,6 +1,5 @@
 streamlit
 pandas
 altair
-sqlalchemy>=1.4,<3
-pymysql>=1.1    
-
+sqlalchemy==2.0.
+pymysql
