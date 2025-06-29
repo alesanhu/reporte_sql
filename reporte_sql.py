@@ -20,7 +20,6 @@ INFORME DE ESTUDIANTES POR SECCIÓN  –  versión final
 ###############################################################################
 # 0. Config de página y LOGIN dinámico                                        #
 ###############################################################################
-st.set_page_config(page_title="Informe de Estudiantes por Sección", layout="wide")
 
 if "db_cfg" not in st.session_state:
     with st.form("login", clear_on_submit=False):
