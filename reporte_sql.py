@@ -1,4 +1,4 @@
-```python
+
 import streamlit as st
 import pandas as pd
 from sqlalchemy import create_engine, text
@@ -227,5 +227,4 @@ if st.button("▶️ Generar reporte", key="btn_reporte"):
     if sec_code:  # Detalle de outcomes/competencias sólo cuando hay sección concreta
         det = run_query(SQL_DETALLE,{"sec":sec_code})
         st.dataframe(det, use_container_width=True)
-```
 
