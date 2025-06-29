@@ -1,4 +1,5 @@
 import streamlit as st
+st.set_page_config(page_title="Informe...", layout="wide")
 import pandas as pd
 from sqlalchemy import create_engine, text
 from sqlalchemy.exc import SQLAlchemyError
